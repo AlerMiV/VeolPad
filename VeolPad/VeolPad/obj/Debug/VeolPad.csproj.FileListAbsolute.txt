@@ -1,0 +1,11 @@
+C:\Users\Alex 2.0\source\repos\VeolPad\VeolPad\VeolPad\bin\Debug\VeolPad.exe.config
+C:\Users\Alex 2.0\source\repos\VeolPad\VeolPad\VeolPad\bin\Debug\VeolPad.exe
+C:\Users\Alex 2.0\source\repos\VeolPad\VeolPad\VeolPad\bin\Debug\VeolPad.pdb
+C:\Users\Alex 2.0\source\repos\VeolPad\VeolPad\VeolPad\obj\Debug\VeolPad.csprojAssemblyReference.cache
+C:\Users\Alex 2.0\source\repos\VeolPad\VeolPad\VeolPad\obj\Debug\VeolPad.Form1.resources
+C:\Users\Alex 2.0\source\repos\VeolPad\VeolPad\VeolPad\obj\Debug\VeolPad.Properties.Resources.resources
+C:\Users\Alex 2.0\source\repos\VeolPad\VeolPad\VeolPad\obj\Debug\VeolPad.VeolIcons.resources
+C:\Users\Alex 2.0\source\repos\VeolPad\VeolPad\VeolPad\obj\Debug\VeolPad.csproj.GenerateResource.cache
+C:\Users\Alex 2.0\source\repos\VeolPad\VeolPad\VeolPad\obj\Debug\VeolPad.csproj.CoreCompileInputs.cache
+C:\Users\Alex 2.0\source\repos\VeolPad\VeolPad\VeolPad\obj\Debug\VeolPad.exe
+C:\Users\Alex 2.0\source\repos\VeolPad\VeolPad\VeolPad\obj\Debug\VeolPad.pdb

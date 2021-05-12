@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VeolPad", "VeolPad\VeolPad.csproj", "{1CDCC46E-E64D-4D46-9297-0282AE338A4B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1CDCC46E-E64D-4D46-9297-0282AE338A4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CDCC46E-E64D-4D46-9297-0282AE338A4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CDCC46E-E64D-4D46-9297-0282AE338A4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CDCC46E-E64D-4D46-9297-0282AE338A4B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3FA4D045-DA69-4E9C-B54E-F226B1E9BF4F}
+	EndGlobalSection
+EndGlobal
