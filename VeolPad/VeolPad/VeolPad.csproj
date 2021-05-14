@@ -32,6 +32,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icons8_goodnotes_2.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -159,6 +162,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icons8_goodnotes_120px_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="goodnotes%281%29.ico" />
+    <Content Include="icons8_goodnotes_2.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
