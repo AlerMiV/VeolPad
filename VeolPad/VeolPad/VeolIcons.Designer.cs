@@ -63,9 +63,69 @@ namespace VeolPad {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap AboutApp {
+            get {
+                object obj = ResourceManager.GetObject("AboutApp", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap CopyText {
+            get {
+                object obj = ResourceManager.GetObject("CopyText", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap CutText {
+            get {
+                object obj = ResourceManager.GetObject("CutText", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap EditText {
+            get {
+                object obj = ResourceManager.GetObject("EditText", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap FileIcon {
             get {
                 object obj = ResourceManager.GetObject("FileIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_goodnotes_120px_1 {
+            get {
+                object obj = ResourceManager.GetObject("icons8_goodnotes_120px_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MenuMore {
+            get {
+                object obj = ResourceManager.GetObject("MenuMore", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,6 +153,16 @@ namespace VeolPad {
         /// <summary>
         ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap PasteText {
+            get {
+                object obj = ResourceManager.GetObject("PasteText", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap SaveAsFileIcon {
             get {
                 object obj = ResourceManager.GetObject("SaveAsFileIcon", resourceCulture);
@@ -106,6 +176,16 @@ namespace VeolPad {
         internal static System.Drawing.Bitmap SaveFileIcon {
             get {
                 object obj = ResourceManager.GetObject("SaveFileIcon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Поиск локализованного ресурса типа System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap SelectAllText {
+            get {
+                object obj = ResourceManager.GetObject("SelectAllText", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

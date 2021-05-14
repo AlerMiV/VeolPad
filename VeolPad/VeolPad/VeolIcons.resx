@@ -118,8 +118,26 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="AboutApp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\icons8_info_120px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CopyText" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\icons8_copy_to_clipboard_120px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CutText" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\icons8_cut_120px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EditText" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\icons8_edit_120px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="FileIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\icons8_file_100px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8_goodnotes_120px_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\icons8_goodnotes_120px_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MenuMore" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\icons8_more_120px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="NewFileIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\icons8_add_file_100px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -127,10 +145,16 @@
   <data name="OpenFileIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\icons8_opened_folder_100px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="PasteText" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\icons8_paste_120px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="SaveAsFileIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\icons8_save_as_100px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="SaveFileIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>Resources\icons8_save_100px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SelectAllText" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>Resources\icons8_select_all_120px.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

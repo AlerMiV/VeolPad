@@ -9,3 +9,14 @@ C:\Users\Alex 2.0\source\repos\VeolPad\VeolPad\VeolPad\obj\Debug\VeolPad.csproj.
 C:\Users\Alex 2.0\source\repos\VeolPad\VeolPad\VeolPad\obj\Debug\VeolPad.csproj.CoreCompileInputs.cache
 C:\Users\Alex 2.0\source\repos\VeolPad\VeolPad\VeolPad\obj\Debug\VeolPad.exe
 C:\Users\Alex 2.0\source\repos\VeolPad\VeolPad\VeolPad\obj\Debug\VeolPad.pdb
+C:\Users\Alex 2.0\source\repos\VeolPad\VeolPad\VeolPad\bin\Debug\en\VeolPad.resources.dll
+C:\Users\Alex 2.0\source\repos\VeolPad\VeolPad\VeolPad\bin\Debug\ru\VeolPad.resources.dll
+C:\Users\Alex 2.0\source\repos\VeolPad\VeolPad\VeolPad\obj\Debug\VeolPad.Windows.SaveError.resources
+C:\Users\Alex 2.0\source\repos\VeolPad\VeolPad\VeolPad\obj\Debug\VeolPad.Windows.SaveError.en.resources
+C:\Users\Alex 2.0\source\repos\VeolPad\VeolPad\VeolPad\obj\Debug\VeolPad.Windows.SaveError.ru.resources
+C:\Users\Alex 2.0\source\repos\VeolPad\VeolPad\VeolPad\obj\Debug\en\VeolPad.resources.dll
+C:\Users\Alex 2.0\source\repos\VeolPad\VeolPad\VeolPad\obj\Debug\ru\VeolPad.resources.dll
+C:\Users\Alex 2.0\source\repos\VeolPad\VeolPad\VeolPad\obj\Debug\VeolPad.Dialogs.About.resources
+C:\Users\Alex 2.0\source\repos\VeolPad\VeolPad\VeolPad\obj\Debug\VeolPad.Dialogs.About.en.resources
+C:\Users\Alex 2.0\source\repos\VeolPad\VeolPad\VeolPad\obj\Debug\VeolPad.Dialogs.About.ru.resources
+C:\Users\Alex 2.0\source\repos\VeolPad\VeolPad\VeolPad\obj\Debug\VeolPad.Form1.ru.resources

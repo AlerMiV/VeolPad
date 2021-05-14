@@ -31,11 +31,6 @@ namespace VeolPad
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.VeolStrip = new System.Windows.Forms.MenuStrip();
-            this.VeolStrip_File = new System.Windows.Forms.ToolStripMenuItem();
-            this.VeolStrip_File_New = new System.Windows.Forms.ToolStripMenuItem();
-            this.VeolStrip_File_Open = new System.Windows.Forms.ToolStripMenuItem();
-            this.VeolStrip_File_Save = new System.Windows.Forms.ToolStripMenuItem();
-            this.VeolStrip_File_SaveAs = new System.Windows.Forms.ToolStripMenuItem();
             this.VeolDialogOpen = new System.Windows.Forms.OpenFileDialog();
             this.VeolDialogSave = new System.Windows.Forms.SaveFileDialog();
             this.VeolData = new System.Windows.Forms.Panel();
@@ -44,22 +39,79 @@ namespace VeolPad
             this.TextLenghtValue = new System.Windows.Forms.Label();
             this.TextLenght = new System.Windows.Forms.Label();
             this.VeolTextEditor = new System.Windows.Forms.RichTextBox();
+            this.VeolStrip_File = new System.Windows.Forms.ToolStripMenuItem();
+            this.VeolStrip_File_New = new System.Windows.Forms.ToolStripMenuItem();
+            this.VeolStrip_File_Open = new System.Windows.Forms.ToolStripMenuItem();
+            this.VeolStrip_File_Save = new System.Windows.Forms.ToolStripMenuItem();
+            this.VeolStrip_File_SaveAs = new System.Windows.Forms.ToolStripMenuItem();
+            this.VeolStrip_Edit = new System.Windows.Forms.ToolStripMenuItem();
+            this.VeolStrip_Edit_Copy = new System.Windows.Forms.ToolStripMenuItem();
+            this.VeolStrip_Edit_Cut = new System.Windows.Forms.ToolStripMenuItem();
+            this.VeolStrip_Edit_Paste = new System.Windows.Forms.ToolStripMenuItem();
+            this.VeolStrip_Edit_SelectAll = new System.Windows.Forms.ToolStripMenuItem();
+            this.VeolStrip_Edit_More = new System.Windows.Forms.ToolStripMenuItem();
+            this.VeolStrip_More_About = new System.Windows.Forms.ToolStripMenuItem();
             this.VeolStrip.SuspendLayout();
             this.VeolData.SuspendLayout();
             this.SuspendLayout();
             // 
             // VeolStrip
             // 
+            resources.ApplyResources(this.VeolStrip, "VeolStrip");
             this.VeolStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.VeolStrip_File});
-            this.VeolStrip.Location = new System.Drawing.Point(0, 0);
+            this.VeolStrip_File,
+            this.VeolStrip_Edit,
+            this.VeolStrip_Edit_More});
             this.VeolStrip.Name = "VeolStrip";
-            this.VeolStrip.Size = new System.Drawing.Size(800, 24);
-            this.VeolStrip.TabIndex = 0;
-            this.VeolStrip.Text = "menuStrip1";
+            // 
+            // VeolDialogOpen
+            // 
+            this.VeolDialogOpen.FileName = "openFileDialog1";
+            resources.ApplyResources(this.VeolDialogOpen, "VeolDialogOpen");
+            // 
+            // VeolDialogSave
+            // 
+            resources.ApplyResources(this.VeolDialogSave, "VeolDialogSave");
+            // 
+            // VeolData
+            // 
+            resources.ApplyResources(this.VeolData, "VeolData");
+            this.VeolData.BackColor = System.Drawing.SystemColors.Window;
+            this.VeolData.Controls.Add(this.TextLinesValue);
+            this.VeolData.Controls.Add(this.TextLines);
+            this.VeolData.Controls.Add(this.TextLenghtValue);
+            this.VeolData.Controls.Add(this.TextLenght);
+            this.VeolData.Name = "VeolData";
+            // 
+            // TextLinesValue
+            // 
+            resources.ApplyResources(this.TextLinesValue, "TextLinesValue");
+            this.TextLinesValue.Name = "TextLinesValue";
+            // 
+            // TextLines
+            // 
+            resources.ApplyResources(this.TextLines, "TextLines");
+            this.TextLines.Name = "TextLines";
+            // 
+            // TextLenghtValue
+            // 
+            resources.ApplyResources(this.TextLenghtValue, "TextLenghtValue");
+            this.TextLenghtValue.Name = "TextLenghtValue";
+            // 
+            // TextLenght
+            // 
+            resources.ApplyResources(this.TextLenght, "TextLenght");
+            this.TextLenght.Name = "TextLenght";
+            // 
+            // VeolTextEditor
+            // 
+            resources.ApplyResources(this.VeolTextEditor, "VeolTextEditor");
+            this.VeolTextEditor.Name = "VeolTextEditor";
+            this.VeolTextEditor.TextChanged += new System.EventHandler(this.VeolTextEditor_TextChanged_1);
             // 
             // VeolStrip_File
             // 
+            resources.ApplyResources(this.VeolStrip_File, "VeolStrip_File");
             this.VeolStrip_File.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.VeolStrip_File_New,
             this.VeolStrip_File_Open,
@@ -67,112 +119,96 @@ namespace VeolPad
             this.VeolStrip_File_SaveAs});
             this.VeolStrip_File.Image = global::VeolPad.VeolIcons.FileIcon;
             this.VeolStrip_File.Name = "VeolStrip_File";
-            this.VeolStrip_File.Size = new System.Drawing.Size(53, 20);
-            this.VeolStrip_File.Text = "File";
             // 
             // VeolStrip_File_New
             // 
+            resources.ApplyResources(this.VeolStrip_File_New, "VeolStrip_File_New");
             this.VeolStrip_File_New.Image = global::VeolPad.VeolIcons.NewFileIcon;
             this.VeolStrip_File_New.Name = "VeolStrip_File_New";
-            this.VeolStrip_File_New.Size = new System.Drawing.Size(180, 22);
-            this.VeolStrip_File_New.Text = "New";
             // 
             // VeolStrip_File_Open
             // 
+            resources.ApplyResources(this.VeolStrip_File_Open, "VeolStrip_File_Open");
             this.VeolStrip_File_Open.Image = global::VeolPad.VeolIcons.OpenFileIcon;
             this.VeolStrip_File_Open.Name = "VeolStrip_File_Open";
-            this.VeolStrip_File_Open.Size = new System.Drawing.Size(180, 22);
-            this.VeolStrip_File_Open.Text = "Open";
+            this.VeolStrip_File_Open.Click += new System.EventHandler(this.VeolStrip_File_Open_Click);
             // 
             // VeolStrip_File_Save
             // 
+            resources.ApplyResources(this.VeolStrip_File_Save, "VeolStrip_File_Save");
             this.VeolStrip_File_Save.Image = global::VeolPad.VeolIcons.SaveFileIcon;
             this.VeolStrip_File_Save.Name = "VeolStrip_File_Save";
-            this.VeolStrip_File_Save.Size = new System.Drawing.Size(180, 22);
-            this.VeolStrip_File_Save.Text = "Save";
             // 
             // VeolStrip_File_SaveAs
             // 
+            resources.ApplyResources(this.VeolStrip_File_SaveAs, "VeolStrip_File_SaveAs");
             this.VeolStrip_File_SaveAs.Image = global::VeolPad.VeolIcons.SaveAsFileIcon;
             this.VeolStrip_File_SaveAs.Name = "VeolStrip_File_SaveAs";
-            this.VeolStrip_File_SaveAs.Size = new System.Drawing.Size(180, 22);
-            this.VeolStrip_File_SaveAs.Text = "Save As";
+            this.VeolStrip_File_SaveAs.Click += new System.EventHandler(this.VeolStrip_File_SaveAs_Click);
             // 
-            // VeolDialogOpen
+            // VeolStrip_Edit
             // 
-            this.VeolDialogOpen.FileName = "openFileDialog1";
+            resources.ApplyResources(this.VeolStrip_Edit, "VeolStrip_Edit");
+            this.VeolStrip_Edit.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.VeolStrip_Edit_Copy,
+            this.VeolStrip_Edit_Cut,
+            this.VeolStrip_Edit_Paste,
+            this.VeolStrip_Edit_SelectAll});
+            this.VeolStrip_Edit.Image = global::VeolPad.VeolIcons.EditText;
+            this.VeolStrip_Edit.Name = "VeolStrip_Edit";
             // 
-            // VeolData
+            // VeolStrip_Edit_Copy
             // 
-            this.VeolData.BackColor = System.Drawing.SystemColors.Window;
-            this.VeolData.Controls.Add(this.TextLinesValue);
-            this.VeolData.Controls.Add(this.TextLines);
-            this.VeolData.Controls.Add(this.TextLenghtValue);
-            this.VeolData.Controls.Add(this.TextLenght);
-            this.VeolData.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.VeolData.Location = new System.Drawing.Point(0, 430);
-            this.VeolData.Name = "VeolData";
-            this.VeolData.Size = new System.Drawing.Size(800, 20);
-            this.VeolData.TabIndex = 3;
+            resources.ApplyResources(this.VeolStrip_Edit_Copy, "VeolStrip_Edit_Copy");
+            this.VeolStrip_Edit_Copy.Image = global::VeolPad.VeolIcons.CopyText;
+            this.VeolStrip_Edit_Copy.Name = "VeolStrip_Edit_Copy";
+            this.VeolStrip_Edit_Copy.Click += new System.EventHandler(this.VeolStrip_Edit_Copy_Click);
             // 
-            // TextLinesValue
+            // VeolStrip_Edit_Cut
             // 
-            this.TextLinesValue.AutoSize = true;
-            this.TextLinesValue.Location = new System.Drawing.Point(181, 4);
-            this.TextLinesValue.Name = "TextLinesValue";
-            this.TextLinesValue.Size = new System.Drawing.Size(13, 13);
-            this.TextLinesValue.TabIndex = 3;
-            this.TextLinesValue.Text = "0";
+            resources.ApplyResources(this.VeolStrip_Edit_Cut, "VeolStrip_Edit_Cut");
+            this.VeolStrip_Edit_Cut.Image = global::VeolPad.VeolIcons.CutText;
+            this.VeolStrip_Edit_Cut.Name = "VeolStrip_Edit_Cut";
+            this.VeolStrip_Edit_Cut.Click += new System.EventHandler(this.VeolStrip_Edit_Cut_Click);
             // 
-            // TextLines
+            // VeolStrip_Edit_Paste
             // 
-            this.TextLines.AutoSize = true;
-            this.TextLines.Location = new System.Drawing.Point(127, 4);
-            this.TextLines.Name = "TextLines";
-            this.TextLines.Size = new System.Drawing.Size(58, 13);
-            this.TextLines.TabIndex = 2;
-            this.TextLines.Text = "Text lines: ";
+            resources.ApplyResources(this.VeolStrip_Edit_Paste, "VeolStrip_Edit_Paste");
+            this.VeolStrip_Edit_Paste.Image = global::VeolPad.VeolIcons.PasteText;
+            this.VeolStrip_Edit_Paste.Name = "VeolStrip_Edit_Paste";
+            this.VeolStrip_Edit_Paste.Click += new System.EventHandler(this.VeolStrip_Edit_Paste_Click);
             // 
-            // TextLenghtValue
+            // VeolStrip_Edit_SelectAll
             // 
-            this.TextLenghtValue.AutoSize = true;
-            this.TextLenghtValue.Location = new System.Drawing.Point(62, 4);
-            this.TextLenghtValue.Name = "TextLenghtValue";
-            this.TextLenghtValue.Size = new System.Drawing.Size(13, 13);
-            this.TextLenghtValue.TabIndex = 1;
-            this.TextLenghtValue.Text = "0";
+            resources.ApplyResources(this.VeolStrip_Edit_SelectAll, "VeolStrip_Edit_SelectAll");
+            this.VeolStrip_Edit_SelectAll.Image = global::VeolPad.VeolIcons.SelectAllText;
+            this.VeolStrip_Edit_SelectAll.Name = "VeolStrip_Edit_SelectAll";
+            this.VeolStrip_Edit_SelectAll.Click += new System.EventHandler(this.VeolStrip_Edit_SelectAll_Click);
             // 
-            // TextLenght
+            // VeolStrip_Edit_More
             // 
-            this.TextLenght.AutoSize = true;
-            this.TextLenght.Location = new System.Drawing.Point(3, 4);
-            this.TextLenght.Name = "TextLenght";
-            this.TextLenght.Size = new System.Drawing.Size(66, 13);
-            this.TextLenght.TabIndex = 0;
-            this.TextLenght.Text = "Text lenght: ";
+            resources.ApplyResources(this.VeolStrip_Edit_More, "VeolStrip_Edit_More");
+            this.VeolStrip_Edit_More.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.VeolStrip_More_About});
+            this.VeolStrip_Edit_More.Image = global::VeolPad.VeolIcons.MenuMore;
+            this.VeolStrip_Edit_More.Name = "VeolStrip_Edit_More";
             // 
-            // VeolTextEditor
+            // VeolStrip_More_About
             // 
-            this.VeolTextEditor.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.VeolTextEditor.Location = new System.Drawing.Point(0, 24);
-            this.VeolTextEditor.Name = "VeolTextEditor";
-            this.VeolTextEditor.Size = new System.Drawing.Size(800, 426);
-            this.VeolTextEditor.TabIndex = 4;
-            this.VeolTextEditor.Text = "";
-            this.VeolTextEditor.TextChanged += new System.EventHandler(this.VeolTextEditor_TextChanged_1);
+            resources.ApplyResources(this.VeolStrip_More_About, "VeolStrip_More_About");
+            this.VeolStrip_More_About.Image = global::VeolPad.VeolIcons.AboutApp;
+            this.VeolStrip_More_About.Name = "VeolStrip_More_About";
+            this.VeolStrip_More_About.Click += new System.EventHandler(this.VeolStrip_More_About_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.VeolData);
             this.Controls.Add(this.VeolTextEditor);
             this.Controls.Add(this.VeolStrip);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.VeolStrip;
             this.Name = "Form1";
-            this.Text = "VeolPad - Universal notepad";
             this.VeolStrip.ResumeLayout(false);
             this.VeolStrip.PerformLayout();
             this.VeolData.ResumeLayout(false);
@@ -198,6 +234,13 @@ namespace VeolPad
         private System.Windows.Forms.Label TextLenghtValue;
         private System.Windows.Forms.Label TextLenght;
         private System.Windows.Forms.RichTextBox VeolTextEditor;
+        private System.Windows.Forms.ToolStripMenuItem VeolStrip_Edit;
+        private System.Windows.Forms.ToolStripMenuItem VeolStrip_Edit_More;
+        private System.Windows.Forms.ToolStripMenuItem VeolStrip_Edit_Copy;
+        private System.Windows.Forms.ToolStripMenuItem VeolStrip_Edit_Cut;
+        private System.Windows.Forms.ToolStripMenuItem VeolStrip_Edit_Paste;
+        private System.Windows.Forms.ToolStripMenuItem VeolStrip_Edit_SelectAll;
+        private System.Windows.Forms.ToolStripMenuItem VeolStrip_More_About;
     }
 }
 
