@@ -25,7 +25,6 @@ C:\Users\Alex 2.0\Source\Repos\AlerMiV\VeolPad\VeolPad\VeolPad\bin\Debug\VeolPad
 C:\Users\Alex 2.0\Source\Repos\AlerMiV\VeolPad\VeolPad\VeolPad\bin\Debug\VeolPad.pdb
 C:\Users\Alex 2.0\Source\Repos\AlerMiV\VeolPad\VeolPad\VeolPad\bin\Debug\en\VeolPad.resources.dll
 C:\Users\Alex 2.0\Source\Repos\AlerMiV\VeolPad\VeolPad\VeolPad\bin\Debug\ru\VeolPad.resources.dll
-C:\Users\Alex 2.0\Source\Repos\AlerMiV\VeolPad\VeolPad\VeolPad\obj\Debug\VeolPad.csprojAssemblyReference.cache
 C:\Users\Alex 2.0\Source\Repos\AlerMiV\VeolPad\VeolPad\VeolPad\obj\Debug\VeolPad.Dialogs.About.resources
 C:\Users\Alex 2.0\Source\Repos\AlerMiV\VeolPad\VeolPad\VeolPad\obj\Debug\VeolPad.Windows.SaveError.resources
 C:\Users\Alex 2.0\Source\Repos\AlerMiV\VeolPad\VeolPad\VeolPad\obj\Debug\VeolPad.Form1.resources

@@ -1,0 +1,1 @@
+set VeolPad=%appdata%\Amanche\VeolPad

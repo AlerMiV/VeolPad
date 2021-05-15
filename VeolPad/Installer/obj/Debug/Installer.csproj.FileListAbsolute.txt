@@ -1,0 +1,13 @@
+C:\Users\Alex 2.0\source\repos\AlerMiV\VeolPad\VeolPad\Installer\bin\Debug\Installer.exe.config
+C:\Users\Alex 2.0\source\repos\AlerMiV\VeolPad\VeolPad\Installer\bin\Debug\Installer.exe
+C:\Users\Alex 2.0\source\repos\AlerMiV\VeolPad\VeolPad\Installer\bin\Debug\Installer.pdb
+C:\Users\Alex 2.0\source\repos\AlerMiV\VeolPad\VeolPad\Installer\obj\Debug\Installer.csprojAssemblyReference.cache
+C:\Users\Alex 2.0\source\repos\AlerMiV\VeolPad\VeolPad\Installer\obj\Debug\Installer.Form1.resources
+C:\Users\Alex 2.0\source\repos\AlerMiV\VeolPad\VeolPad\Installer\obj\Debug\Installer.Properties.Resources.resources
+C:\Users\Alex 2.0\source\repos\AlerMiV\VeolPad\VeolPad\Installer\obj\Debug\Installer.csproj.GenerateResource.cache
+C:\Users\Alex 2.0\source\repos\AlerMiV\VeolPad\VeolPad\Installer\obj\Debug\Installer.csproj.CoreCompileInputs.cache
+C:\Users\Alex 2.0\source\repos\AlerMiV\VeolPad\VeolPad\Installer\obj\Debug\Installer.exe
+C:\Users\Alex 2.0\source\repos\AlerMiV\VeolPad\VeolPad\Installer\obj\Debug\Installer.pdb
+C:\Users\Alex 2.0\source\repos\AlerMiV\VeolPad\VeolPad\Installer\obj\Debug\Interop.IWshRuntimeLibrary.dll
+C:\Users\Alex 2.0\source\repos\AlerMiV\VeolPad\VeolPad\Installer\obj\Debug\Interop.Shell32.dll
+C:\Users\Alex 2.0\source\repos\AlerMiV\VeolPad\VeolPad\Installer\obj\Debug\Installer.csproj.ResolveComReference.cache
