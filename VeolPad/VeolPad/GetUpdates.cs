@@ -8,14 +8,14 @@ namespace VeolPad
         {
             WebClient Client = new WebClient();
             string TempFile = System.IO.Path.GetTempFileName();
-            string LastedVersionURL = "https://bit.ly/3uTzDPx";
+            string LastedVersionURL = "https://bit.ly/2SJtzec";
             Client.DownloadFile(LastedVersionURL, TempFile);
             string LastGettedVersion = System.IO.File.ReadAllText(TempFile);
             bool Anw;
             if (LastGettedVersion == "v1.1")
-                Anw = false;
-            else
                 Anw = true;
+            else
+                Anw = false;
             return Anw;
         }
     }
