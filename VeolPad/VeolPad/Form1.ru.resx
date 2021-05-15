@@ -118,17 +118,71 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="VeolStrip_File_New.Size" type="System.Drawing.Size, System.Drawing">
+    <value>209, 22</value>
+  </data>
+  <data name="VeolStrip_File_New.Text" xml:space="preserve">
+    <value>Создать</value>
+  </data>
+  <data name="VeolStrip_File_Open.Size" type="System.Drawing.Size, System.Drawing">
+    <value>209, 22</value>
+  </data>
+  <data name="VeolStrip_File_Open.Text" xml:space="preserve">
+    <value>Открыть</value>
+  </data>
+  <data name="VeolStrip_File_Save.Size" type="System.Drawing.Size, System.Drawing">
+    <value>209, 22</value>
+  </data>
+  <data name="VeolStrip_File_Save.Text" xml:space="preserve">
+    <value>Сохранить (не работает)</value>
+  </data>
+  <data name="VeolStrip_File_SaveAs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>209, 22</value>
+  </data>
+  <data name="VeolStrip_File_SaveAs.Text" xml:space="preserve">
+    <value>Сохранить как</value>
+  </data>
   <data name="VeolStrip_File.Size" type="System.Drawing.Size, System.Drawing">
     <value>64, 20</value>
   </data>
   <data name="VeolStrip_File.Text" xml:space="preserve">
     <value>Файл</value>
   </data>
+  <data name="VeolStrip_Edit_Copy.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 22</value>
+  </data>
+  <data name="VeolStrip_Edit_Copy.Text" xml:space="preserve">
+    <value>Копировать</value>
+  </data>
+  <data name="VeolStrip_Edit_Cut.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 22</value>
+  </data>
+  <data name="VeolStrip_Edit_Cut.Text" xml:space="preserve">
+    <value>Вырезать</value>
+  </data>
+  <data name="VeolStrip_Edit_Paste.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 22</value>
+  </data>
+  <data name="VeolStrip_Edit_Paste.Text" xml:space="preserve">
+    <value>Вставить</value>
+  </data>
+  <data name="VeolStrip_Edit_SelectAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>148, 22</value>
+  </data>
+  <data name="VeolStrip_Edit_SelectAll.Text" xml:space="preserve">
+    <value>Выделить всё</value>
+  </data>
   <data name="VeolStrip_Edit.Size" type="System.Drawing.Size, System.Drawing">
     <value>111, 20</value>
   </data>
   <data name="VeolStrip_Edit.Text" xml:space="preserve">
     <value>Инструменты</value>
+  </data>
+  <data name="VeolStrip_More_GetUpdates.Text" xml:space="preserve">
+    <value>Обновить</value>
+  </data>
+  <data name="VeolStrip_More_About.Text" xml:space="preserve">
+    <value>О программе</value>
   </data>
   <data name="VeolStrip_Edit_More.Size" type="System.Drawing.Size, System.Drawing">
     <value>74, 20</value>
@@ -169,57 +223,6 @@
   </data>
   <data name="TextLenght.Text" xml:space="preserve">
     <value>Длина текста: </value>
-  </data>
-  <data name="VeolStrip_File_New.Size" type="System.Drawing.Size, System.Drawing">
-    <value>209, 22</value>
-  </data>
-  <data name="VeolStrip_File_New.Text" xml:space="preserve">
-    <value>Создать</value>
-  </data>
-  <data name="VeolStrip_File_Open.Size" type="System.Drawing.Size, System.Drawing">
-    <value>209, 22</value>
-  </data>
-  <data name="VeolStrip_File_Open.Text" xml:space="preserve">
-    <value>Открыть</value>
-  </data>
-  <data name="VeolStrip_File_Save.Size" type="System.Drawing.Size, System.Drawing">
-    <value>209, 22</value>
-  </data>
-  <data name="VeolStrip_File_Save.Text" xml:space="preserve">
-    <value>Сохранить (не работает)</value>
-  </data>
-  <data name="VeolStrip_File_SaveAs.Size" type="System.Drawing.Size, System.Drawing">
-    <value>209, 22</value>
-  </data>
-  <data name="VeolStrip_File_SaveAs.Text" xml:space="preserve">
-    <value>Сохранить как</value>
-  </data>
-  <data name="VeolStrip_Edit_Copy.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="VeolStrip_Edit_Copy.Text" xml:space="preserve">
-    <value>Копировать</value>
-  </data>
-  <data name="VeolStrip_Edit_Cut.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="VeolStrip_Edit_Cut.Text" xml:space="preserve">
-    <value>Вырезать</value>
-  </data>
-  <data name="VeolStrip_Edit_Paste.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="VeolStrip_Edit_Paste.Text" xml:space="preserve">
-    <value>Вставить</value>
-  </data>
-  <data name="VeolStrip_Edit_SelectAll.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
-  </data>
-  <data name="VeolStrip_Edit_SelectAll.Text" xml:space="preserve">
-    <value>Выделить всё</value>
-  </data>
-  <data name="VeolStrip_More_About.Text" xml:space="preserve">
-    <value>О программе</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -758,9 +761,6 @@
         AAAAAAA//wAAAAAMYD//8AAAAB/gP///AAAAH/A////wAAAf+D////4AAB/4P////+AAP/w//////gA/
         /j//////4D/////////+/////////////////////////////////////////////////////////w==
 </value>
-  </data>
-  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>VeolPad - Универсальный блокнот</value>

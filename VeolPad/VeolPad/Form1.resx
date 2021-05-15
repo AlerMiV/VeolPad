@@ -137,8 +137,8 @@
   <data name="&gt;&gt;TextLenght.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="VeolStrip_More_About.Size" type="System.Drawing.Size, System.Drawing">
-    <value>180, 22</value>
+  <data name="&gt;&gt;VeolStrip_More_GetUpdtaes.Name" xml:space="preserve">
+    <value>VeolStrip_More_GetUpdtaes</value>
   </data>
   <data name="VeolTextEditor.Size" type="System.Drawing.Size, System.Drawing">
     <value>800, 426</value>
@@ -146,11 +146,14 @@
   <data name="&gt;&gt;VeolStrip_Edit_SelectAll.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="VeolStrip_Edit_SelectAll.Size" type="System.Drawing.Size, System.Drawing">
-    <value>122, 22</value>
+  <data name="VeolStrip_More_GetUpdates.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
   </data>
   <data name="&gt;&gt;VeolStrip_File.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;VeolStrip_File.Name" xml:space="preserve">
+    <value>VeolStrip_File</value>
   </data>
   <data name="TextLinesValue.Size" type="System.Drawing.Size, System.Drawing">
     <value>13, 13</value>
@@ -167,11 +170,11 @@
   <data name="TextLines.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
-  <data name="TextLinesValue.Text" xml:space="preserve">
-    <value>0</value>
+  <data name="&gt;&gt;VeolStrip_More_GetUpa.Name" xml:space="preserve">
+    <value>VeolStrip_More_GetUpa</value>
   </data>
-  <data name="TextLenghtValue.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="VeolStrip_Edit_Paste.Text" xml:space="preserve">
+    <value>Paste</value>
   </data>
   <data name="&gt;&gt;VeolStrip_File_New.Name" xml:space="preserve">
     <value>VeolStrip_File_New</value>
@@ -185,9 +188,6 @@
   <data name="&gt;&gt;TextLenghtValue.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;VeolStrip.Type" xml:space="preserve">
-    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
   <data name="&gt;&gt;VeolStrip_Edit_Copy.Name" xml:space="preserve">
     <value>VeolStrip_Edit_Copy</value>
   </data>
@@ -200,8 +200,9 @@
   <data name="TextLines.Size" type="System.Drawing.Size, System.Drawing">
     <value>58, 13</value>
   </data>
-  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="VeolData.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Bottom</value>
   </data>
   <data name="VeolStrip_Edit_Paste.Size" type="System.Drawing.Size, System.Drawing">
     <value>122, 22</value>
@@ -218,15 +219,20 @@
   <data name="TextLines.Location" type="System.Drawing.Point, System.Drawing">
     <value>127, 4</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="VeolData.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
-    <value>Bottom</value>
+  <data name="&gt;&gt;VeolStrip_More_GetUpdates.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TextLenght.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;VeolStrip_Edit_SelectAll.Name" xml:space="preserve">
     <value>VeolStrip_Edit_SelectAll</value>
   </data>
   <data name="TextLenght.Size" type="System.Drawing.Size, System.Drawing">
     <value>66, 13</value>
+  </data>
+  <data name="&gt;&gt;TextLinesValue.Parent" xml:space="preserve">
+    <value>VeolData</value>
   </data>
   <data name="VeolStrip_File_Open.Text" xml:space="preserve">
     <value>Open</value>
@@ -240,9 +246,6 @@
   <data name="VeolStrip_Edit.Text" xml:space="preserve">
     <value>Edit</value>
   </data>
-  <data name="&gt;&gt;VeolStrip.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
   <data name="&gt;&gt;VeolStrip.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
@@ -255,26 +258,41 @@
   <data name="TextLenghtValue.Size" type="System.Drawing.Size, System.Drawing">
     <value>13, 13</value>
   </data>
+  <data name="&gt;&gt;обновитьToolStripMenuItem.Name" xml:space="preserve">
+    <value>обновитьToolStripMenuItem</value>
+  </data>
   <data name="VeolStrip_File.Size" type="System.Drawing.Size, System.Drawing">
     <value>53, 20</value>
   </data>
   <data name="VeolTextEditor.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
     <value>Fill</value>
   </data>
+  <data name="&gt;&gt;обновитьToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="TextLenght.Location" type="System.Drawing.Point, System.Drawing">
     <value>3, 4</value>
+  </data>
+  <data name="&gt;&gt;TextLenghtValue.Parent" xml:space="preserve">
+    <value>VeolData</value>
   </data>
   <data name="VeolStrip.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
-  <data name="VeolStrip_Edit_Paste.Text" xml:space="preserve">
-    <value>Paste</value>
+  <data name="VeolStrip_More_About.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
   </data>
   <data name="VeolStrip.Text" xml:space="preserve">
     <value>menuStrip1</value>
   </data>
   <data name="VeolStrip_Edit_Copy.Text" xml:space="preserve">
     <value>Copy</value>
+  </data>
+  <data name="&gt;&gt;VeolStrip_More_GetUpdtaes.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="VeolStrip_Edit_SelectAll.Size" type="System.Drawing.Size, System.Drawing">
+    <value>122, 22</value>
   </data>
   <data name="&gt;&gt;TextLenght.Parent" xml:space="preserve">
     <value>VeolData</value>
@@ -297,6 +315,9 @@
   <data name="&gt;&gt;VeolStrip_File_Save.Name" xml:space="preserve">
     <value>VeolStrip_File_Save</value>
   </data>
+  <data name="TextLinesValue.Text" xml:space="preserve">
+    <value>0</value>
+  </data>
   <data name="&gt;&gt;VeolStrip_File_New.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -312,17 +333,23 @@
   <data name="VeolStrip_File_Save.Size" type="System.Drawing.Size, System.Drawing">
     <value>114, 22</value>
   </data>
+  <data name="VeolStrip_More_GetUpdtaes.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
   <data name="&gt;&gt;TextLenghtValue.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="VeolStrip_File.Text" xml:space="preserve">
     <value>File</value>
   </data>
-  <data name="&gt;&gt;TextLinesValue.Parent" xml:space="preserve">
-    <value>VeolData</value>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
   </data>
   <data name="TextLinesValue.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
+  </data>
+  <data name="&gt;&gt;VeolStrip_More_GetUpdates.Name" xml:space="preserve">
+    <value>VeolStrip_More_GetUpdates</value>
   </data>
   <data name="VeolStrip_Edit_Cut.Text" xml:space="preserve">
     <value>Cut</value>
@@ -332,6 +359,9 @@
   </data>
   <data name="TextLenghtValue.Text" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="обновитьToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
   </data>
   <data name="&gt;&gt;TextLenght.Name" xml:space="preserve">
     <value>TextLenght</value>
@@ -348,8 +378,8 @@
   <data name="VeolStrip_Edit_Copy.Size" type="System.Drawing.Size, System.Drawing">
     <value>122, 22</value>
   </data>
-  <data name="&gt;&gt;VeolStrip_File.Name" xml:space="preserve">
-    <value>VeolStrip_File</value>
+  <data name="VeolStrip_More_GetUpa.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
   </data>
   <data name="&gt;&gt;VeolStrip_File_Save.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -895,8 +925,8 @@
         /j//////4D/////////+/////////////////////////////////////////////////////////w==
 </value>
   </data>
-  <data name="&gt;&gt;TextLenghtValue.Parent" xml:space="preserve">
-    <value>VeolData</value>
+  <data name="&gt;&gt;VeolStrip.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="&gt;&gt;VeolStrip_Edit_Cut.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -913,8 +943,8 @@
   <data name="VeolStrip_File_Save.Text" xml:space="preserve">
     <value>Save</value>
   </data>
-  <data name="&gt;&gt;TextLenght.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;VeolStrip.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;VeolStrip_Edit_Paste.Name" xml:space="preserve">
     <value>VeolStrip_Edit_Paste</value>
@@ -943,6 +973,9 @@
   <data name="&gt;&gt;VeolStrip_File_Open.Name" xml:space="preserve">
     <value>VeolStrip_File_Open</value>
   </data>
+  <data name="VeolTextEditor.Text" xml:space="preserve">
+    <value />
+  </data>
   <data name="VeolStrip_Edit_More.Text" xml:space="preserve">
     <value>More</value>
   </data>
@@ -960,6 +993,9 @@
   </data>
   <data name="VeolStrip_File_New.Size" type="System.Drawing.Size, System.Drawing">
     <value>114, 22</value>
+  </data>
+  <data name="&gt;&gt;VeolStrip_More_GetUpa.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="TextLines.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -988,8 +1024,8 @@
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>800, 450</value>
   </data>
-  <data name="VeolTextEditor.Text" xml:space="preserve">
-    <value />
+  <data name="TextLenghtValue.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>

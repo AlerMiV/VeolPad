@@ -77,5 +77,20 @@ namespace VeolPad
             Form Dialog = new About();
             Dialog.ShowDialog();
         }
+
+        private void VeolStrip_More_GetUpdates_Click(object sender, EventArgs e)
+        {
+            if (GetUpdates.Verify() == true)
+            {
+                Form Dialog = new UpdateLastIsCurrent();
+                Dialog.ShowDialog();
+            } 
+            else
+            {
+                Form Dialog2 = new UpdateLastIsNotCurrent();
+                Dialog2.ShowDialog();
+            }
+                
+        }
     }
 }
