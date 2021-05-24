@@ -37,5 +37,15 @@ namespace Installer
             Process.Start(@"%appdata%\Amanche\VeolPad\VeolPad.exe");
             Close();
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            if (folderBrowserDialog1.ShowDialog() == DialogResult.Cancel)
+                ;
+            else
+            {
+                textBox1.Text = folderBrowserDialog1.SelectedPath;
+            }
+        }
     }
 }

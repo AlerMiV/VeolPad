@@ -47,3 +47,5 @@ C:\Users\Alex 2.0\Source\Repos\AlerMiV\VeolPad\VeolPad\VeolPad\obj\Debug\VeolPad
 C:\Users\Alex 2.0\Source\Repos\AlerMiV\VeolPad\VeolPad\VeolPad\obj\Debug\VeolPad.Dialogs.UpdateLastIsNotCurrent.ru.resources
 C:\Users\Alex 2.0\Source\Repos\AlerMiV\VeolPad\VeolPad\VeolPad\obj\Debug\VeolPad.Dialogs.UpdateLastIsCurrent.ru.resources
 C:\Users\Alex 2.0\Source\Repos\AlerMiV\VeolPad\VeolPad\VeolPad\obj\Debug\VeolPad.Dialogs.UpdateLastIsNotCurrent.en.resources
+C:\Users\Alex 2.0\source\repos\AlerMiV\VeolPad\VeolPad\VeolPad\obj\Debug\VeolPad.csprojAssemblyReference.cache
+C:\Users\Alex 2.0\source\repos\AlerMiV\VeolPad\VeolPad\VeolPad\obj\Debug\VeolPad.Form1.en.resources

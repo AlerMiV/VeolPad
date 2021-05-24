@@ -92,5 +92,10 @@ namespace VeolPad
             }
                 
         }
+
+        private void VeolStrip_Workspace_NewFile_Click(object sender, EventArgs e)
+        {
+            VeolWorkspace.cre
+        }
     }
 }
